@@ -1,0 +1,29 @@
+.client-card {
+  border: solid 1px $green;
+  border-radius: 6px;
+  padding: 15px;
+  margin: 0 10px 20px 10px;
+  height: 150px;
+
+}
+
+.client-card p {
+  color: $gold;
+  text-transform: uppercase;
+  margin-top: 10px;
+  letter-spacing: 1px;
+  color: $green;
+}
+
+.client-card:hover a {
+  text-decoration: none;
+  color: $gold;
+}
+
+.client-card:hover img {
+  border: 1px solid $gold;
+}
+
+.client-card:hover {
+  border: 1px solid $green;
+}

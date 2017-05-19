@@ -1,0 +1,21 @@
+<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.35) 0%, rgba(0,36,61,0.35) 50%), url('<%= image_path "https://unsplash.it/1700/400?image=1078" %>')">
+  <div class="banner-content">
+    <h2>Meet our clients</h2>
+  </div>
+</div>
+
+
+<div class="container">
+
+  <div class="client-list">
+  <div class="row tect-center">
+    <% @clients.each do |client| %>
+    <div class="col-xs-12 col-sm-4 col-md-2 col-md-offset-1 col-md-offset-1 text-center client-card">
+      <%= link_to image_tag(client.photo), client_path(client) %>
+      <p><%= link_to client.name, client_path(client)%></p>
+    </div>
+    <% end %>
+    </div>
+  </div>
+</div>
+

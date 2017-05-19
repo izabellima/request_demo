@@ -1,0 +1,42 @@
+.client-img img {
+  border-radius: 0;
+  height: 300px;
+}
+
+.user-information {
+  margin-top: 150px;
+
+}
+
+.user-information h2 {
+  text-transform: uppercase;
+  color: $green;
+  letter-spacing: 1.4px;
+  font-weight: 100;
+  font-size: 45px;
+  margin-top: 48px;
+}
+
+.user-information h3 {
+  font-family: $base-font;
+  font-weight: lighter;
+  color: $gold;
+  letter-spacing: 1px;
+}
+
+.btn-primary {
+  background-color: $gold;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  border: 1px solid $gold;
+  border-radius: 3px;
+  transition: background-color 0.5s ease;
+  margin-top: 40px;
+}
+
+.btn-primary:hover {
+  background-color: white;
+  color: $gold;
+  border: 1px solid $gold;
+}

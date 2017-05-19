@@ -2,3 +2,19 @@
  * CSS code specific to home page
  * (margin/padding adjustments)
  * ------------------------------------- */
+
+img {
+  height: 70px;
+  border-radius: 50%;
+  border: 1px solid $green;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  text-decoration: none;
+  color: $gold;
+}
+

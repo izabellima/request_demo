@@ -1,0 +1,15 @@
+
+<div class="container">
+  <div class="user-information">
+    <div class="row">
+      <div class="col-sm-12 col-md-4 col-md-offset-1 client-img">
+        <%= image_tag @client.photo %>
+      </div>
+      <div class="col-sm-12 col-md-6 ">
+        <h2><%= @client.name %></h2>
+        <h3><%= @client.address %></h3>
+        <%= link_to "back", clients_path, class: "btn btn-primary" %>
+      </div>
+    </div>
+  </div>
+</div>
